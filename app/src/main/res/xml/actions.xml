@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action intentName="actions.intent.CREATE_TAXI_RESERVATION">
+        <fulfillment
+                fulfillmentMode="actions.fulfillment.SLICE"
+                urlTemplate="content://com.takharsh.androidslices/hello">
+        </fulfillment>
+    </action>
+</actions>
